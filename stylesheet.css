@@ -1,11 +1,21 @@
+legend{
+font-size: 2rem;
+}
+    
 fieldset{
     border: none;
+    display: grid;
+
 }
 
 .input-text{
-    
+    padding: 8px;
 }
 
 .description-text{
 
+}
+
+input.click{
+    background-color: green;
 }
