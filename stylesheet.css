@@ -24,3 +24,7 @@ button{
 button.yay{
     background-color: green;
 }
+
+input:user-invalid {
+    background: #faa;
+}
