@@ -8,14 +8,19 @@ fieldset{
 
 }
 
-.input-text{
-    padding: 8px;
-}
-
 .description-text{
 
 }
 
-input.click{
+input{
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button{
+    background-color: brown;
+}
+
+button.yay{
     background-color: green;
 }
