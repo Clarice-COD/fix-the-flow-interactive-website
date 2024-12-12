@@ -31,6 +31,9 @@ button{
     margin: auto;
 }
 
+
+/* ALGEMEEN */
+
 ::selection {
     color: rgb(0, 174, 17);
 }
