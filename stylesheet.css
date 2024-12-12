@@ -32,8 +32,31 @@ button{
 }
 
 
+
+/* BEVESTEGING */
+
+.harry{
+    width: 15rem;
+    display: block;
+    margin: auto;
+}
+
+
+
 /* ALGEMEEN */
 
 ::selection {
     color: rgb(0, 174, 17);
+}
+
+
+
+/* FONTS */
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }
