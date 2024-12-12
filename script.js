@@ -1,7 +1,7 @@
 // Doe bovenstaande voor elke input op de pagina..
 
 
-// QuerySelectorAll zorgt dat alle elementen die de input hebben worden geselecteerd
+// QuerySelectorAll zorgt dat alle elementen die de input tag hebben worden geselecteerd
 let alleInputsOpDePagina = document.querySelectorAll('input')
 
 // forEach zorgt ervoor dat elke input een functie krijgt
@@ -14,3 +14,6 @@ alleInputsOpDePagina.forEach(function(huidigeInput) {
         huidigeInput.setCustomValidity('')
     })
 })
+
+
+
