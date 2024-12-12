@@ -30,3 +30,7 @@ button{
     display: block;
     margin: auto;
 }
+
+::selection {
+    color: rgb(0, 174, 17);
+}
