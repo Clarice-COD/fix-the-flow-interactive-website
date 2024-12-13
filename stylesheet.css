@@ -22,14 +22,37 @@ input{
     margin-bottom: 1rem;
 }
 
-button{
-    width: 8rem;
-    height: 2.5rem;
+input:user-invalid {
+    background: #faa;
+}
+
+button {
+    width: 6rem;
     border-radius: 2rem;
     border: none;
     display: block;
     margin: auto;
+    background-color: aquamarine;
+    color: black;
+    padding: 12px;
 }
+
+a{
+    text-decoration: none;
+}
+
+/* a {
+    width: 6rem;
+    border-radius: 2rem;
+    border: none;
+    display: block;
+    margin: auto;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+} */
 
 
 
