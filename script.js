@@ -1,3 +1,8 @@
+
+//////////////// FORMULIER
+
+console.log("joehoe javascript")
+
 // Doe bovenstaande voor elke input op de pagina..
 
 
@@ -6,14 +11,36 @@ let alleInputsOpDePagina = document.querySelectorAll('input')
 
 // forEach zorgt ervoor dat elke input een functie krijgt
 alleInputsOpDePagina.forEach(function(huidigeInput) {
-    huidigeInput.addEventListener('invalid', function (){
+    huidigeInput.addEventListener('invalid', function() {
         huidigeInput.setCustomValidity('Dit veld is nog niet ingevuld')
     });
     
     huidigeInput.addEventListener('input', function() {
         huidigeInput.setCustomValidity('')
     })
-})
+});
 
 
+
+
+
+//// BUTTON ACTIE STAPPENPLAN
+
+// STAP 1: selecteer een element
+let formBtn = document.querySelector('.form-btn')
+let myForm = document.querySelector('form')
+console.log(myForm)
+console.log(formBtn)
+// STAP 2 voeg een event toe
+formBtn.addEventListener('click', function(event) {
+    console.log(myForm.checkValidity())
+    // STAP 3 ga naar een link zodra het formulier is ingevuld
+    if(myForm.checkValidity())  {
+        console.log("het is goed ingevuld")
+        window.location.href = "https://fdnd.nl"
+    }
+    event.preventDefault() 
+    
+    
+});
 
