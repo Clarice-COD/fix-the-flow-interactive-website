@@ -98,3 +98,10 @@ main{
         text-align: left;
     }
 }
+
+.inschrijf-button{
+    color: black;
+    background-color: #faa;
+    padding: 10px 16px 10px 16px;
+    border-radius: 4rem
+}
