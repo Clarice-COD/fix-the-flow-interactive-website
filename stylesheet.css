@@ -8,8 +8,13 @@ header{
     margin: 0;
 }
 
+nav{
+    background-color: aqua;
+}
+
 .logo{
-    background-color: #faa;
+    width: 6rem;
+    margin: 2rem;
 }
 
 ::selection {
