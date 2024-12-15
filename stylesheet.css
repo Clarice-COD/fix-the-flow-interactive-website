@@ -1,3 +1,14 @@
+/* ALGEMEEN: ALLE PAGINA'S */
+
+body{
+    margin: 0;
+}
+
+::selection {
+    color: rgb(0, 174, 17);
+}
+
+
 /* INSCHRIJF FORMULIER */
 
 fieldset{
@@ -65,15 +76,6 @@ a{
 }
 
 
-
-/* ALGEMEEN */
-
-::selection {
-    color: rgb(0, 174, 17);
-}
-
-
-
 /* FONTS */
 
 h1{
@@ -88,7 +90,11 @@ p{
 
 /* INFORMATIE PAGINA */
 
+
+
+
 main{
+
     p{
         text-align: left;
         max-width: 30rem;
@@ -104,4 +110,8 @@ main{
     background-color: #faa;
     padding: 10px 16px 10px 16px;
     border-radius: 4rem
+}
+
+.img-infomatie{
+    width: 100%;
 }
