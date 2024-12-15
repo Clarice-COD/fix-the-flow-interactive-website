@@ -8,10 +8,6 @@ header{
     margin: 0;
 }
 
-nav{
-    background-color: aqua;
-}
-
 .logo{
     width: 6rem;
     margin: 2rem;
@@ -23,6 +19,10 @@ nav{
 
 
 /* AGENDA */
+
+.nav-agenda{
+    position: absolute;
+}
 
 .img-header-agenda{
     width: 100%;
