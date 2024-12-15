@@ -88,3 +88,13 @@ p{
 
 /* INFORMATIE PAGINA */
 
+main{
+    p{
+        text-align: left;
+        max-width: 30rem;
+    }
+
+    h1{
+        text-align: left;
+    }
+}
