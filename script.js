@@ -38,3 +38,20 @@ formBtn.addEventListener('click', function(event) {
 
 });
 
+
+// LOADING SCREEN NA HET INVULLEN VAN HET INSCHRIJF FORMULIER
+
+// STAP 1 - Selecteer een element
+var button = document.querySelector("button");
+var element = document.querySelector("div")
+
+// STAP 2 - Voeg een click event toe aan de button
+button.addEventListener("click", function(){
+
+    // STAP 3 - Zet de class aan voor het element wanneer je op de knop klikt
+    element.classList.toggle("loading-screen");
+});
+
+
+
+
