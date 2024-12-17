@@ -68,10 +68,7 @@ console.log(myForm.checkValidity())
         event.preventDefault() //zorg dat het formulier niet verstuurd wordt ...
 
         // laat het loading screen na enkele secondes verdwijnen
-        $(function() {
-            setTimeout(function() { 
-                $('.loading-screen').fadeOut(1500); }, 5000)
-            })
+        element.classList.add("remove-screen")
     }
 
 });   

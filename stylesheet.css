@@ -165,8 +165,6 @@ div{
  opacity: 0;
 }
 
-
-
 div.loading-screen{
     opacity: 100%;
     background-color: rgb(253, 255, 240);
@@ -199,6 +197,16 @@ div.loading-screen{
 
     .img{
         align-self: end;
+    }
+}
+
+.remove-screen,.loading-screen{
+    animation: fadeOut 0.5s ease-in-out 8s forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
     }
 }
 
