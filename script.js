@@ -16,27 +16,26 @@ alleInputsOpDePagina.forEach(function(huidigeInput) {
 //// BUTTON ACTIE STAPPENPLAN
 
 // STAP 1: selecteer een element
-let formBtn = document.querySelector('.form-btn')
-let myForm = document.querySelector('form')
-console.log(myForm)
-console.log(formBtn)
+
+// console.log(myForm)
+// console.log(formBtn)
 
 // STAP 2 voeg een event toe
-formBtn.addEventListener('click', function(event) {
-    console.log(myForm.checkValidity())
+// formBtn.addEventListener('click', function(event) {
+    // console.log(myForm.checkValidity())
 
     // STAP 3 ga naar een link zodra het formulier is ingevuld
-    if(myForm.checkValidity())  {
-        console.log("het is goed ingevuld")
+    // if(myForm.checkValidity())  {
+        // console.log("het is goed ingevuld")
 
         //toon feedback dat het is gelukt, met de classList kan je dan een claas aanroepen.
         //en na een paar seconde ga je naar een andere pagina?
         // window.location.href = "https://fdnd.nl" //redirect naar een andere pagina, als het form goed is ingevuld
 
-        event.preventDefault() //zorg dat het formulier niet verstuurd wordt ...
-    }
+        // event.preventDefault() //zorg dat het formulier niet verstuurd wordt ...
+    // }
 
-});
+// });
 
 
 // LOADING SCREEN NA HET INVULLEN VAN HET INSCHRIJF FORMULIER
@@ -44,12 +43,31 @@ formBtn.addEventListener('click', function(event) {
 // STAP 1 - Selecteer een element
 var button = document.querySelector("button");
 var element = document.querySelector("div")
+let formBtn = document.querySelector('.form-btn')
+let myForm = document.querySelector('form')
 
 // STAP 2 - Voeg een click event toe aan de button
-button.addEventListener("click", function(){
+// button.addEventListener("click", function(){
 
     // STAP 3 - Zet de class aan voor het element wanneer je op de knop klikt
-    element.classList.toggle("loading-screen");
+    // element.classList.toggle("loading-screen");
+// });
+
+
+
+// STAP 2 voeg een event toe
+formBtn.addEventListener('click', function(){
+console.log(myForm.checkValidity())
+
+    // STAP 3 ga naar een link zodra het formulier is ingevuld
+    if(myForm.checkValidity())  {
+        console.log("het is goed ingevuld")
+
+        element.classList.toggle("loading-screen");
+
+        event.preventDefault() //zorg dat het formulier niet verstuurd wordt ...
+    }
+
 });
 
 
