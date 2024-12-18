@@ -91,10 +91,13 @@ header{
 
 fieldset{
     display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: auto;
     border: none;
-    /* margin: auto; */
+    text-align: center;
+}
+
+.body-inschrijf-formulier{
+
 }
 
 legend{
@@ -103,7 +106,11 @@ text-align: center;
 }
 
 input{
-    display:block;
+    display:flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
     border-radius: 5px;
     padding: 8px;
     width: 75%;
@@ -114,13 +121,15 @@ input{
     margin-bottom: 1rem;
 }
 
-label{
-    /* display: block;
-   text-align: center; */
-}
-
 input:user-invalid {
     background: #faa;
+}
+
+.input-formulier{
+    margin-top: 5px;
+    width: 35rem;
+    padding: 1.3rem;
+    border-radius: 2rem;
 }
 
 button {
@@ -142,18 +151,21 @@ a{
     cursor: pointer;
 }
 
-/* a {
-    width: 6rem;
-    border-radius: 2rem;
-    border: none;
+.label-formulier{
     display: block;
     margin: auto;
-    background-color: aquamarine;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-} */
+    padding: 1rem;
+    border-radius: 0%;
+}
+
+form{
+    border-radius: 0%;
+}
+
+.form-inschrijf-formulier{
+    height: 100%;
+}
+
 
 
 
@@ -240,6 +252,7 @@ div.loading-screen{
         margin: 0;
         max-width: none;
         align-self: center;
+        color: var(--third-background-color);
     }
 
     .img{
