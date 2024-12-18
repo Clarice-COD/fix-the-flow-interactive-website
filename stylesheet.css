@@ -6,6 +6,10 @@ body{
 
 header{
     margin: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/schuur.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .logo{
@@ -17,29 +21,45 @@ header{
     color: rgb(0, 174, 17);
 }
 
+.intro-text{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    p{
+        background-color: var(--primary-background-color);
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
 
 /* FONTS */
 
 h1{
+    padding: 120px;
     text-align: center;
-    display: block;
-    margin-left: 0;
-    margin-right: 0;
-    color: rgb(0, 0, 0);
+    min-height: 18rem;
+    max-height: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--primary-text-color);
+    
 }
 
 h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
     display: block;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 p{
     text-align: center;
     display: block;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 38rem;
 }
 
@@ -48,6 +68,14 @@ p{
 
 .nav-agenda{
     position: absolute;
+}
+
+header{
+    min-height: 18rem;
+    max-height: 18rem;
+    margin-top: 0;
+    display: flex;
+    background-color: #faa;
 }
 
 .img-header-agenda{
@@ -87,8 +115,8 @@ input{
 }
 
 label{
-    display: block;
-   text-align: center;
+    /* display: block;
+   text-align: center; */
 }
 
 input:user-invalid {
@@ -154,6 +182,7 @@ a{
 
     h1{
         text-align: left;
+        
     }
 }
 
@@ -283,27 +312,29 @@ div.loading-screen{
 
 .workshop-child{
     display: grid;
-    grid-template-rows: 17rem auto 4rem;
+    grid-template-rows: 17rem 4rem 4rem;
     text-align: left;
 
     h3{
         color: white;
-        text-align: center;
         align-self: end;
     }
 
     p{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         color: white;
-        text-align: center;
         max-width: 10rem;
+        text-align: left;
+        margin:0;
     }
 
     a{
-        color: white;
-        text-align: center;
+        color: var(--primary-text-color);
+        padding: 2px 20px 7px 20px;
+        border-radius: 1rem;
+        background: var(--primary-highlight-color);
+        width: 5rem;
+        height: 2rem;
     }
 }
 
