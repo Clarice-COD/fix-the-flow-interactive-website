@@ -22,6 +22,12 @@ header{
 
 h1{
     text-align: center;
+    text-align: center;
+    position: absolute;
+    top: 14.3rem;
+    left: 50%;
+    right: 50%;
+    color: white;
 }
 
 p{
@@ -51,8 +57,11 @@ p{
 /* INSCHRIJF FORMULIER */
 
 fieldset{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
     border: none;
-    margin: auto;
+    /* margin: auto; */
 }
 
 legend{
@@ -213,4 +222,76 @@ div.loading-screen{
     width: 16rem;
     margin: auto;
     display:block;
+}
+
+
+/* WORKSHOP */
+
+.workshop-grand-parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1rem 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.workshop-parent-1 .workshop-parent-2 .workshop-parent-3 .workshop-parent-4{
+    
+}
+
+.workshop-parent-1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/ZADEN.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.4rem;
+}
+
+.workshop-parent-2{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/ZADEN.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.4rem;
+}
+
+.workshop-parent-3{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/ZADEN.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.4rem;
+}
+
+.workshop-parent-4{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.678)),
+    url(./assets/ZADEN.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.4rem;
+}
+
+.workshop-child{
+    display: grid;
+    grid-template-rows: 17rem auto 4rem;
+    text-align: left;
+
+    h3{
+        color: white;
+        text-align: center;
+    }
+
+    p{
+        color: white;
+        text-align: center;
+    }
+
+    a{
+        color: white;
+        text-align: center;
+    }
+}
+
+ul{
+    text-decoration: none;
 }
