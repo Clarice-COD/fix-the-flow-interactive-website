@@ -140,19 +140,19 @@ a{
 }
 
 .informatie-stekjes{
-    margin: 2rem;
+    margin: 4rem;
 }
 
 .inschrijf-button{
     color: black;
-    background-color: #faa;
+    background-color: var();
     padding: 10px 16px 10px 16px;
     border-radius: 4rem
 }
 
 .img-infomatie{
     width: 100%;
-    max-height: 18rem;
+    max-height: 35rem;
     width: 100%;
     object-fit: cover;
 }
