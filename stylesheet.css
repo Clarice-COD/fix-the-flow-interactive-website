@@ -127,7 +127,7 @@ input:user-invalid {
 
 .input-formulier{
     margin-top: 5px;
-    width: 35rem;
+    width: 14rem;
     padding: 1.3rem;
     border-radius: 2rem;
 }
@@ -353,4 +353,11 @@ div.loading-screen{
 
 ul{
     text-decoration: none;
+}
+
+
+@media (min-width: 575px) {
+    .input-formulier{
+        width: 35rem;
+    }
 }
